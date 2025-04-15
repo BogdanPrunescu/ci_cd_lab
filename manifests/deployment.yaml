@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/bogdanprunescu/ci_cd_lab:sha256:bb73245995e924dbcdb373c5ae555eefcf7d7f009996d1e5a4068a41cca8bb0d
+          image: ghcr.io/bogdanprunescu/ci_cd_lab:latest
           ports:
             - containerPort: 8080
